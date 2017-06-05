@@ -65,7 +65,7 @@
           }
 
           scope.gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default || false, scope.slides, scope.options);
-          scope.gallery.init();
+          // scope.gallery.init();
           scope.item = scope.gallery.currItem;
 
           scope.gallery.listen('destroy', function () {
